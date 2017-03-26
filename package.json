@@ -1,0 +1,34 @@
+{
+  "name": "tracktrack",
+  "version": "1.0.0",
+  "description": "App for collaborative tracking",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "angular",
+    "node",
+    "realdb"
+  ],
+  "author": "Eric Garasky",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.2",
+    "level": "^1.6.0",
+    "sockjs": "^0.3.18",
+    "sockjs-client": "^1.1.2",
+    "stompjs": "^2.3.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11"
+  }
+}
